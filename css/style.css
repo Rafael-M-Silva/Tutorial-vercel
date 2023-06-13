@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+figure img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3/1;
+    border-radius: 10px;
+}
+
+figure figcaption {
+    text-align: end;
+    margin-top: 5px;
+}
+
+h1,h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0px 20px 0px;
+    color: #1B1B1B;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+li,p {
+    font-size: 16px;
+    color: #39393A;
+    font-weight: 400;
+}
+
+.receita li {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    color: #000;
+}
+
+footer p, figcaption {
+    font-size: 12px;
+    color: #8F8F8F;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
